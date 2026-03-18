@@ -1,0 +1,460 @@
+{
+	// Workflow
+	"security.workspace.trust.untrustedFiles": "open",
+	"problems.showCurrentInStatus": true,
+	"update.showReleaseNotes": false,
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+	"terminal.integrated.suggest.enabled": false,
+	"chat.commandCenter.enabled": true,
+	"chat.agentSessionsViewLocation": "disabled",
+	"chat.viewSessions.orientation": "stacked",
+	"chat.viewSessions.enabled": false,
+	"http.proxy": "",
+	"http.proxySupport": "off",
+	"http.proxyAuthorization": null,
+	"http.proxyStrictSSL": false,
+	"sync.gist": "31d051020e1fe66435b53f28a0ed30ee",
+	"sync.forceUpload": true,
+	"sync.quietSync": true,
+	"sync.forceDownload": true,
+	"sync.autoUpload": true,
+	"sync.autoDownload": true,
+	"window.customTitleBarVisibility": "auto",
+	"window.commandCenter": true,
+	// Editor
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.wordWrap": "off",
+	"editor.defaultFormatter": "vscode.typescript-language-features",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "never",
+		"source.removeUnusedImports": "always",
+		"source.removeUnused.ts": "never"
+	},
+	"editor.fontFamily": "Fira Code",
+	"editor.fontSize": 15,
+	"editor.fontWeight": "400",
+	"editor.fontLigatures": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.inlineSuggest.enabled": true,
+	"editor.suggestSelection": "first",
+	"editor.pasteAs.enabled": false,
+	"editor.pasteAs.showPasteSelector": "never",
+	"editor.stickyScroll.enabled": false,
+	"editor.autoClosingBrackets": "always",
+	"editor.minimap.enabled": true,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	// Workbench
+	"workbench.editor.restoreViewState": true,
+	"workbench.colorTheme": "Dracula Theme",
+	"workbench.preferredHighContrastColorTheme": "Monokai",
+	"workbench.preferredHighContrastLightColorTheme": "Default Light Modern",
+	"workbench.preferredLightColorTheme": "Solarized Light",
+	"workbench.productIconTheme": "material-product-icons",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.tree.indent": 15,
+	"workbench.sideBar.location": "left",
+	"workbench.activityBar.orientation": "vertical",
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
+	"workbench.editorAssociations": {
+		"*.copilotmd": "vscode.markdown.preview.editor",
+		"*.pdf": "latex-workshop-pdf-hook"
+	},
+	// Explorer
+	"explorer.autoReveal": true,
+	"explorer.confirmDragAndDrop": false,
+	// Git
+	"scm.defaultViewMode": "tree",
+	"scm.showHistoryGraph": false,
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"git.openRepositoryInParentFolders": "always",
+	"git.discardUntrackedChangesToTrash": false,
+	// Debug
+	"debug.allowBreakpointsEverywhere": true,
+	"debug.console.closeOnEnd": true,
+	"debug.onTaskErrors": "debugAnyway",
+	// Extensions
+	"extensions.closeExtensionDetailsOnViewChange": false,
+	"extensions.ignoreRecommendations": true,
+	"containers.containers.groupBy": "Compose Project Name",
+	"containers.containers.sortBy": "Label",
+	"containers.images.groupBy": "RepositoryName",
+	"containers.images.sortBy": "Label",
+	"docker.commands.composeUpSubset": [
+		{
+			"label": "Compose Up",
+			"template": "${composeCommand} ${profileList} ${configurationFile} up ${detached} ${build} ${serviceList}"
+		}
+	],
+	"material-icon-theme.activeIconPack": "nest",
+	"vsicons.presets.nestjs": true,
+	"vsicons.presets.angular": true,
+	"vsicons.presets.tsOfficial": true,
+	"vsicons.presets.jsOfficial": true,
+	"bookmarks.saveBookmarksInProject": true,
+	"powermode.enabled": true,
+	"powermode.presets": "flames",
+	"powermode.combo.location": "editor",
+	"powermode.shake.enabled": false,
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	"editorconfig.generateAuto": true,
+	"editorconfig.template": "default",
+	"eslint.format.enable": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"vsintellicode.features.python.deepLearning": "enabled",
+	"tabnine.experimentalAutoImports": true,
+	"C_Cpp.errorSquiggles": "disabled",
+	"C_Cpp.dimInactiveRegions": true,
+	"C_Cpp.inactiveRegionOpacity": 0.55,
+	"cSpell.language": "pt,pt-BR,en",
+	"cSpell.enableFiletypes": [
+		"!jade",
+		"!yml",
+		"log",
+		"ruby",
+		"shellscript",
+		"sql",
+		"swift",
+		"xml"
+	],
+	"jupyter.alwaysTrustNotebooks": true,
+	"jupyter.askForKernelRestart": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"git-graph.repository.commits.fetchAvatars": true,
+	"gitlens.defaultDateFormat": null,
+	"gitlens.views.remotes.branches.layout": "list",
+	"gitlens.views.tags.branches.layout": "list",
+	"gitlens.views.branches.branches.layout": "list",
+	"gitlens.plusFeatures.enabled": true,
+	"gitlens.ai.model": "gitkraken",
+	"gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+	"gitlens.menus": {
+		"editor": {
+			"blame": false,
+			"clipboard": true,
+			"compare": false,
+			"history": false,
+			"remote": false
+		},
+		"editorGroup": {
+			"blame": true,
+			"compare": true
+		},
+		"editorTab": {
+			"clipboard": true,
+			"compare": false,
+			"history": false,
+			"remote": false
+		},
+		"explorer": {
+			"clipboard": true,
+			"compare": true,
+			"history": false,
+			"remote": true
+		},
+		"scm": {
+			"graph": false,
+			"authors": true
+		},
+		"scmRepositoryInline": {
+			"graph": false
+		},
+		"scmRepository": {
+			"authors": true,
+			"graph": false
+		},
+		"scmGroupInline": {
+			"stash": true
+		},
+		"scmGroup": {
+			"compare": true,
+			"openClose": true,
+			"stash": true
+		},
+		"scmItemInline": {
+			"stash": false
+		},
+		"scmItem": {
+			"clipboard": true,
+			"compare": true,
+			"history": true,
+			"remote": false,
+			"stash": true
+		}
+	},
+	"docker.images.groupBy": "RepositoryName",
+	"docker.images.sortBy": "Label",
+	"docker.containers.groupBy": "Compose Project Name",
+	"docker.containers.sortBy": "Label",
+	"c-cpp-compile-run.cpp-flags": "-Wall -Wextra -lm",
+	"latex-workshop.formatting.latex": "latexindent",
+	"latex-workshop.formatting.latexindent.path": "/home/alvaro/latexindent",
+	"latex-workshop.formatting.latexindent.args": [
+		"-c",
+		"%DIR%/",
+		"%TMPFILE%",
+		"-y=defaultIndent: '%INDENT%'"
+	],
+	"latex-workshop.bibtex.maxFileSize": 10,
+	"latex-workshop.bibtex-format.tab": "tab",
+	"latex-workshop.bibtex-format.case": "lowercase",
+	"javascript.suggest.autoImports": true,
+	"javascript.suggestionActions.enabled": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.suggest.autoImports": true,
+	"typescript.suggestionActions.enabled": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.tsserver.maxTsServerMemory": 1536,
+	"typescript.tsserver.watchOptions": {},
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": true,
+		"markdown": true,
+		"java": true,
+		"plaintext": false
+	},
+	"github.copilot.selectedCompletionModel": "openai",
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"github.copilot.advanced": {},
+	"github.copilot.chat.azureModels": {},
+	"github.copilot.chat.customOAIModels": {},
+	"github.copilot.chat.gpt5AlternatePrompt": "default",
+	"github.copilot.chat.claudeSonnet45AlternatePrompt": "default",
+	"github.copilot.chat.grokCodeAlternatePrompt": "default",
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"/package.json"
+			],
+			"url": "https://json.schemastore.org/package",
+			"schema": true
+		}
+	],
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[java]": {
+		"editor.defaultFormatter": "vscjava.vscode-java-pack"
+	},
+	"[dockercompose]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"[latex]": {
+		"editor.defaultFormatter": "James-Yu.latex-workshop"
+	},
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"python.defaultInterpreterPath": "/home/alvaro/.asdf/shims/python3",
+	"python.terminal.launchArgs": [],
+	"python.analysis.typeCheckingMode": "basic",
+	"python.showStartPage": false,
+	"r.interpreterPath": "/home/alvaro/.asdf/shims/R",
+	"r.rpath.linux": "/home/alvaro/.asdf/shims/R",
+	"r.lsp.debug": true,
+	"java.configuration.updateBuildConfiguration": "automatic",
+	"java.compile.nullAnalysis.mode": "automatic",
+	"java.project.referencedLibraries": [],
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"color-highlight.languages": [
+		"*"
+	],
+	"color-highlight.hslWithNoFunctionLanguages": [
+		"*"
+	],
+	"better-comments.multilineComments": true,
+	"better-comments.highlightPlainText": false,
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#ff3117",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#2da1f1",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#5b5a5a",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#f1d113",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#8fbd6e",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"commentAnchors.tags.matchCase": true,
+	"commentAnchors.tags.anchors": {
+		"ANCHOR": {
+			"iconColor": "#ffdbfe",
+			"highlightColor": "#ffdbfe",
+			"scope": "file"
+		},
+		"TODO": {
+			"iconColor": "#ffb300",
+			"highlightColor": "#ffb300",
+			"scope": "workspace"
+		},
+		"FIXME": {
+			"iconColor": "#f44336",
+			"highlightColor": "#f44336",
+			"scope": "workspace"
+		},
+		"STUB": {
+			"iconColor": "#ba68c8",
+			"highlightColor": "#ba68c8",
+			"scope": "file"
+		},
+		"NOTE": {
+			"iconColor": "#47acff",
+			"highlightColor": "#47acff",
+			"scope": "file"
+		},
+		"REVIEW": {
+			"iconColor": "#64dd17",
+			"highlightColor": "#64dd17",
+			"scope": "workspace"
+		},
+		"SECTION": {
+			"iconColor": "#3811ff",
+			"highlightColor": "#3811ff",
+			"scope": "workspace",
+			"behavior": "region"
+		},
+		"LINK": {
+			"iconColor": "#2ecc71",
+			"highlightColor": "#2ecc71",
+			"scope": "workspace",
+			"behavior": "link"
+		}
+	},
+	"files.associations": {
+		"*.apib": "apiblueprint",
+		"*.dbml": "dbml",
+		"**/CODEOWNERS": "markdown",
+		"*.rmd": "markdown",
+		"stdio.h": "c",
+		"stdlib.h": "c",
+		"stdbool.h": "c",
+		"string.h": "c",
+		"time.h": "c",
+		"math.h": "c",
+		"complex": "c",
+		"array": "c",
+		"vectors-double.h": "c",
+		"vector": "c",
+		"complex-int.h": "c",
+		"ratio": "c",
+		"random": "c",
+		"hash_map": "c",
+		"hash_set": "c",
+		"bitset": "c",
+		"chrono": "c",
+		"algorithm": "c",
+		"optional": "c",
+		"istream": "c",
+		"ostream": "c",
+		"system_error": "c",
+		"functional": "c",
+		"tuple": "c",
+		"type_traits": "c",
+		"utility": "c",
+		"cmath": "c",
+		"sstream": "c",
+		"atomic": "cpp",
+		"bit": "cpp",
+		"*.tcc": "cpp",
+		"cctype": "cpp",
+		"cerrno": "cpp",
+		"clocale": "cpp",
+		"cstdarg": "cpp",
+		"cstddef": "cpp",
+		"cstdint": "cpp",
+		"cstdio": "cpp",
+		"cstdlib": "cpp",
+		"cwchar": "cpp",
+		"cwctype": "cpp",
+		"deque": "cpp",
+		"exception": "cpp",
+		"iterator": "cpp",
+		"memory": "cpp",
+		"memory_resource": "cpp",
+		"numeric": "cpp",
+		"string": "cpp",
+		"string_view": "cpp",
+		"unordered_map": "cpp",
+		"fstream": "cpp",
+		"initializer_list": "cpp",
+		"ios": "cpp",
+		"iosfwd": "cpp",
+		"iostream": "cpp",
+		"limits": "cpp",
+		"new": "cpp",
+		"queue": "cpp",
+		"stdexcept": "cpp",
+		"streambuf": "cpp",
+		"cstdbool": "cpp",
+		"typeinfo": "cpp",
+		"list": "cpp",
+		"ctime": "cpp",
+		"ranges": "cpp",
+		"compare": "cpp",
+		"concepts": "cpp",
+		"cstring": "cpp"
+	}
+}
