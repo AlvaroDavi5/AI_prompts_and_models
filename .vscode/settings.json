@@ -1,0 +1,26 @@
+{
+	"chat.commandCenter.enabled": true,
+	"chat.agentSessionsViewLocation": "disabled",
+	"chat.viewSessions.orientation": "stacked",
+	"chat.viewSessions.enabled": false,
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"vsintellicode.features.python.deepLearning": "enabled",
+	"tabnine.experimentalAutoImports": true,
+	"gitlens.ai.model": "gitkraken",
+	"gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": true,
+		"markdown": true,
+		"java": true,
+		"plaintext": false
+	},
+	"github.copilot.selectedCompletionModel": "openai",
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"github.copilot.advanced": {},
+	"github.copilot.chat.azureModels": {},
+	"github.copilot.chat.customOAIModels": {},
+	"github.copilot.chat.gpt5AlternatePrompt": "default",
+	"github.copilot.chat.claudeSonnet45AlternatePrompt": "default",
+	"github.copilot.chat.grokCodeAlternatePrompt": "default"
+}

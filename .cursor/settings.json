@@ -1,0 +1,23 @@
+{
+	"chat.commandCenter.enabled": false,
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"vsintellicode.features.python.deepLearning": "enabled",
+	"tabnine.experimentalAutoImports": true,
+	"gitlens.defaultDateFormat": null,
+	"gitlens.views.remotes.branches.layout": "list",
+	"gitlens.views.tags.branches.layout": "list",
+	"gitlens.views.branches.branches.layout": "list",
+	"gitlens.plusFeatures.enabled": true,
+	"cursor.cpp.disabledLanguages": [
+		"plaintext",
+		"scminput"
+	],
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": true,
+		"scminput": false,
+		"yaml": true,
+		"java": true
+	}
+}
