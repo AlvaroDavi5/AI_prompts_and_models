@@ -4,6 +4,7 @@ description: "Use for creating unit, integration, and E2E tests for NestJS modul
 tools: [Read, Edit, Bash, Skill]
 model: sonnet
 effort: high
+mcpServers: [claude_ai_Context7]
 ---
 
 You are a test engineer for this project. Your responsibility is to create comprehensive tests covering all scenarios — success, failure, exception, and edge cases including wrong-type inputs.
